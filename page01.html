@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>blog</title>
+        <link rel="stylesheet" type="text/css" href="test.css"/>
+		<link rel="stylesheet" type="text/css" href="screen.css"/>
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.1/jquery-ui.css"  />
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.1/jquery.jTimepicker.css"  />
+        <script type="text/javascript" src="jquery-1.11.1.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.11.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.11.1/jquery.jTimepicker.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+
+
+    </head>
+    <body>
+        <div id="coluna">
+            <div id="usuario">
+                <p>Login</p>
+                <form name="usuario" action="list.php" method="post">           
+                    <div class="line">
+                        <div class="label">Nome:</div>
+                        <input type="text" id="nome" name="nome" />
+                    </div>
+
+                    <div class="line">
+                        <div class="label">Senha:</div>
+                        <input type="text" id="senha" name="senha" />
+                    </div>
+
+                    <div class="line">
+                        <input type="button" id="ok" name="ok" value="ok" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div id="coluna">
+            <div id="usuario">
+                <p>Cadastro</p>
+                <form name="usuario2" action="list1.php" method="post">           
+                    <div class="line">
+                        <div class="label">Nome:<br></div>
+                            <input type="text" id="nome1" name="nome1" />                        
+                    </div>
+
+                    <div class="line">
+                        <div class="label">Senha:<br></div>
+                            <input type="text" id="senha1" name="senha1" />                        
+                    </div>
+
+                    <div class="line">
+                        <div class="label">Confirma:<br></div>
+                            <input type="text" id="confirma" name="confirma" />                        
+                    </div>
+
+                    <div class="line">
+                        <div class="label">E-mail:<br></div>
+                            <input type="text" id="email" name="email" />                        
+                    </div>
+
+                    <div class="line"><br>
+                        <input type="button" id="confirmar" name="confirmar" value="confirmar" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div id="datepicker"></div>
+        <div id="timepicker"></div>
+        <script>
+            $("#datepicker").datepicker();
+        </script>
+<script src="scripts/jquery.showPassword.js"></script>
+<script>
+$(document).ready(function() {
+  $(':senha').showPassword({
+    linkRightOffset: 5,
+    linkTopOffset: 11
+  });
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-751954-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+    </body>
+</html>

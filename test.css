@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Adonis
+*/
+
+#usuario
+{
+   padding:14px;
+   margin:0;
+   border:0;
+   font-style: inherit;
+   font-weight: inherit;
+   font-size: 100%;
+   font-family:inherit;
+   vertical-align: baseline;
+   background: #FFFFFF;
+   -webkit-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+.line
+{
+    display: table; 
+    width: 322px; 
+    padding: 12px;
+    height: 45px;
+    
+}
+.line2
+{
+    display: block; 
+    width: auto; 
+    padding: 1px;
+    text-align: center;
+}
+
+p
+{
+    color:black;
+    text-align:justify;
+    font-size: 48px;
+
+}
+#coluna{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 410px;
+    padding: 20px;
+    display: table;
+}
+#coluna1{
+    margin-left: auto;
+    margin-right: auto; 
+    width: auto;
+    height: auto;
+    padding: 20px;    
+    -webkit-border-radius: 10px;   
+    float : right; 
+}
+#coluna2{
+    margin-left: auto;
+    margin-right: auto; 
+    width: auto;
+    height: auto;
+    padding: 9px;    
+    -webkit-border-radius: 10px;   
+    float :left; 
+}
+div.margem 
+{	
+			margin:  100px 20px 30px;
+			
+}

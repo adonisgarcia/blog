@@ -1,0 +1,95 @@
+body
+{
+background-color:#000000;
+}
+h1
+{
+	color:yellow;
+	text-align:center;
+	font-family:"Star Jedi Hollow";	
+	float:center;		
+}
+b
+{
+	color:white;
+	font-family:"News Cycle", sans-serif;
+	text-align:justify;
+	font-size:16 px;
+}
+p
+{
+	color:white;
+	font-family:"News Cycle", sans-serif;
+	text-align:justify;
+	font-size:16 px;
+}
+span.b{ 
+		color: blue;
+		font-family:"News Cycle", sans-serif;
+		font-size:11px;
+}
+a{ 
+		color:yellow;
+		font-family:"Star Jedi";
+		font-size:15px;
+		float:center;
+		padding: 4 px;
+		text-decoration:none
+}
+#posicao{  
+		color:yellow;
+		font-family:"Star Jedi";
+		font-size:15px;
+		margin: 8 px;
+		float: right;
+}
+
+
+#menu{  
+		margin: 8 px;
+		float: left;
+		width: 120 px;
+		border:3px solid white;
+}
+#rodape{
+		color: white;
+		font-family:"News Cycle", sans-serif;
+		font-size:15px;
+		align ="bottom";
+}
+div.margem 
+{	
+			margin:  100px 20px 30px;
+			
+}
+#coluna1 {
+		float:left;
+		width: 23%;
+		padding: 9px;
+		
+	}
+
+#coluna2 {
+		float:left;
+		width: 23%;
+		padding: 9px;
+		
+	}
+
+#coluna3 {
+		float:left;
+		width: 23%;
+		padding: 9px;
+	}	
+#picture {
+		
+		margin: 10px;
+	}
+
+ul {
+
+list-style-type: none;
+padding: 8px;
+}
+
+
